@@ -1,0 +1,70 @@
+/*
+ Theme Name:   Eduma Child
+ Theme URI:    http://educationwp.thimpress.com/
+ Description:  Eduma Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     eduma
+ Version:      1.0.0
+ Text Domain:  eduma-child
+*/
+
+.footer {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+.counter-box-content {
+    color: #dec190!important;
+    font-weight:500!important;
+}
+.site-content {
+    padding: 30px 15px 40px!important;
+}
+.sc_heading {
+    margin:0 0  10px!important;
+    padding-top: 0px!important;
+    padding-bottom: 10px!important;
+}
+@media screen and (max-width: 1024px){
+    .site-header .navigation nav {
+        display: inline-block !important;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .navigation .menu-right ul  {
+        padding-top: 20px;
+    }}
+@media screen and (max-width: 1024px){
+    .navigation .menu-right ul li div  {
+    }}
+@media screen and (max-width: 1024px){
+    .site-header .navbar-nav {
+        float: none;
+        padding-right: 0px;
+    }}
+
+/** ICONOS DEL TOOLBAR **/
+
+.toolbar-container .thim-widget-button .widget-button.small  {
+    height: 30px;
+    padding: 0 10px !important;
+    line-height: 36px;
+    background: 0 0;
+}
+.social-toolbar {
+    float:right;
+    display: inline-block;
+}
+@media (min-width: 768px){
+    .col-sm-4 {
+        width: 30.33333%;
+    }
+}
+
+/* Issue from Slider Revolution 6.0.7 update */
+
+.vc_row.wpb_row {
+
+    z-index: 1;
+}
