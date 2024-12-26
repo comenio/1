@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Download attachments */
 .download-attachments .download-title {
     padding-bottom: 0.5em;
@@ -28,4 +29,36 @@
 
 .da-attachments-list {
 	list-style: none;
+=======
+/* Download attachments */
+.download-attachments .download-title {
+    padding-bottom: 0.5em;
+}
+
+.download-attachments table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: transparent;
+	width: 100%; max-width: 100%;
+}
+
+.download-attachments div a,
+.download-attachments ul a,
+.download-attachments table a {
+	text-decoration: none;
+	border: none;
+}
+
+.download-attachments table td,
+.download-attachments table th {
+	padding: 8px;
+	line-height: 1.6;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+	text-align: left;
+}
+
+.da-attachments-list {
+	list-style: none;
+>>>>>>> cc10f9475530a80c7ce910d7091eebb674c149d5
 }
